@@ -87,7 +87,7 @@ main {
   text-align: right;
 }
 .footer {
-  position: absolute;
+  position: fixed;
   margin-top: 90%;
 }
 .footer p {
