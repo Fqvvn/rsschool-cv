@@ -124,6 +124,7 @@ main {
   background-color: transparent;
 }
 .footer p {
+  margin: auto;
   width: 33%;
   display: inline-block;
   text-align: center;
