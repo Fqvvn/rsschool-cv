@@ -5,7 +5,6 @@ body {
   color: #333333;
   margin: 1em;
   padding: 0;
-  text-align: center;
 }
 
 /* Styles for headings */
@@ -63,6 +62,11 @@ hr {
 }
 
 /* Additional styles */
+left {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
 contacts {
   text-align: right;
 }
