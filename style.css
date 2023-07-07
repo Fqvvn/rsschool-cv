@@ -58,10 +58,7 @@ hr {
 
 /* Additional styles */
 div {
-  margin-top: auto;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+margin: auto;
 }
 .left {
  /* max-width: 100%; */
