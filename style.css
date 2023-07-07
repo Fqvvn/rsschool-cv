@@ -82,6 +82,7 @@ main {
   color: white;
   text-align: center;
   margin-right: 12em;
+  padding:10px;
 }
 .contacts {
   text-align: right;
