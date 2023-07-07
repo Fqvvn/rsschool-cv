@@ -1,13 +1,12 @@
 /* Common styles for the entire page */
 body {
-  background-color: #cddbda;
+  background-color: white;
   font-family: Arial, sans-serif;
   padding: 0;
 }
 
 /* Styles for headings */
 h1 {
-  background-color: black;
   color: white;
   font-size: 24px;
 }
@@ -66,14 +65,14 @@ div {
 }
 .left {
  /* max-width: 100%; */
-  background-color: black;
+  background-color: #cddbda;
   color: white;
   text-align: left;
   width: 40%;
   height: 100%;
 }
 .right {
-  background-color: white;
+  background-color: black;
   color: black;
   text-align: center;
   width:50%;
