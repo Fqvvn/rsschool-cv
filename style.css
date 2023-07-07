@@ -59,12 +59,17 @@ hr {
 /* Additional styles */
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   min-height: 100vh;
   flex-direction: column;
   height: 100vh;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 main {
   position: relative;
