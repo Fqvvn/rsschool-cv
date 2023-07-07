@@ -59,7 +59,7 @@ hr {
 
 /* Additional styles */
 div {
-  margin: auto;
+  margin-top: auto;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
