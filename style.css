@@ -61,6 +61,7 @@ hr {
 div {
   margin: auto;
   width: 70%;
+  text-align: center;
 }
 .left {
  /* max-width: 100%; */
