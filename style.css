@@ -60,6 +60,7 @@ hr {
 /* Additional styles */
 div {
   margin: 2em;
+  width: 70%;
 }
 .left {
  /* max-width: 100%; */
