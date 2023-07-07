@@ -74,7 +74,6 @@ main {
   color: white;
   text-align: center;
   width: 25em;
-  height: 100%;
   margin-left: 12em;
 }
 .right {
@@ -82,7 +81,6 @@ main {
   background-color: black;
   color: white;
   text-align: center;
-  height: 100%;
   margin-right: 12em;
 }
 .contacts {
