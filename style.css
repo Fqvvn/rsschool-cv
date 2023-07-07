@@ -74,7 +74,7 @@ main {
 .left {
   flex-basis: 30%;
   max-width: 30%;
-  background-color: #cddbda;
+  background-color: black;
   color: white;
   text-align: center;
   width: 25em;
@@ -84,7 +84,7 @@ main {
 }
 .right {
   flex-grow: 1;
-  background-color: #494a5d;
+  background-color: #767676;
   color: white;
   text-align: center;
   top: 0;
