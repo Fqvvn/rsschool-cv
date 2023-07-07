@@ -45,6 +45,7 @@ li {
 
 /* Styles for images */
 img {
+  max-width: 100px;
   height: auto;
 }
 
