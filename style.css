@@ -99,11 +99,12 @@ main {
   background-color: transparent;
 }
 .footer p {
+  height: 100px;
   width: 32%;
   display: inline-block;
   text-align: center;
 }
 .footer img {
-  max-width: 100px;
+  max-width: 75px;
   height: auto;
 }
