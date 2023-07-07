@@ -59,7 +59,7 @@ hr {
 div {
   margin: 2em;
 }
-left {
+.left {
  /* max-width: 100%; */
   background-color: black;
   color: white;
@@ -68,7 +68,7 @@ left {
   margin-left: 2em;
   height: 100%;
 }
-right {
+.right {
   background-color: white;
   color: black;
   text-align: center;
@@ -76,10 +76,10 @@ right {
   margin-left: 40%;
   height: 100%;
 }
-contacts {
+.contacts {
   text-align: right;
 }
-footer {
+.footer {
   max-width: 100px;
   text-align: center;
 }
