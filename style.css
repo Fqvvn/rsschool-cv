@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   color: #333333;
-  margin: 1em;
   padding: 0;
 }
 
@@ -60,6 +59,9 @@ hr {
 }
 
 /* Additional styles */
+div {
+  margin: 2em;
+}
 left {
   max-width: 100%;
   background-color: black;
