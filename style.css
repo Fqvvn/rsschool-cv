@@ -47,7 +47,6 @@ li {
 
 /* Styles for images */
 img {
-  max-width: 100px;
   height: auto;
 }
 
@@ -75,5 +74,6 @@ contacts {
   text-align: right;
 }
 footer {
+  max-width: 100px;
   text-align: center;
 }
