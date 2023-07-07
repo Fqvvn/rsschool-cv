@@ -1,8 +1,6 @@
 /* Common styles for the entire page */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333333;
   padding: 0;
 }
 
@@ -13,12 +11,10 @@ h1 {
 
 h2 {
   font-size: 20px;
-  color: #007bff;
 }
 
 h3 {
   font-size: 16px;
-  color: #007bff;
 }
 /* Styles for paragraphs */
 p {
