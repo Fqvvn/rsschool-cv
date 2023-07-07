@@ -73,7 +73,7 @@ main {
 }
 .left {
   flex-basis: 30%;
-  max-width: 80%;
+  max-width: 30%;
   background-color: #cddbda;
   color: white;
   text-align: center;
