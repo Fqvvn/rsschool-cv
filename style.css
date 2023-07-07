@@ -79,7 +79,5 @@ hr {
 }
 .footer p {
   display: inline-block;
-  margin: auto;
   max-width: 100px;
-  text-align: center;
 }
