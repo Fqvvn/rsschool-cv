@@ -78,6 +78,7 @@ hr {
   text-align: right;
 }
 .footer p {
+  width: 32%;
   display: inline-block;
 }
 .footer img {
