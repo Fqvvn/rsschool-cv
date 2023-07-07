@@ -46,6 +46,7 @@ li {
 img {
   max-width: 200px;
   height: auto;
+  padding: 20px;
 }
 
 /* Styles for separators */
