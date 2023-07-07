@@ -74,6 +74,7 @@ main {
   color: white;
   text-align: center;
   width: 25em;
+  margin: auto;
   margin-left: 12em;
   padding: 10px;
 }
@@ -82,6 +83,7 @@ main {
   background-color: #494a5d;
   color: white;
   text-align: center;
+  margin: auto;
   margin-right: 12em;
   padding:10px;
 }
