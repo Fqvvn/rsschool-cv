@@ -82,6 +82,7 @@ main {
   margin-left: 12em;
   padding: 10px;
 }
+
 .right {
   flex-grow: 1;
   background-color: #767676;
@@ -91,7 +92,11 @@ main {
   margin-right: 12em;
   padding:10px;
 }
+.right p {
+  margin: auto;
+}
 .contacts {
+  margin: auto;
   text-align: left;
 }
 .footer {
