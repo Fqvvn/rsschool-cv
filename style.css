@@ -58,10 +58,10 @@ hr {
 
 /* Additional styles */
 div {
-margin: auto;
+  margin: auto;
 }
 .left {
- /* max-width: 100%; */
+  max-width: 100%;
   background-color: #cddbda;
   color: white;
   text-align: left;
@@ -70,7 +70,7 @@ margin: auto;
 }
 .right {
   background-color: black;
-  color: black;
+  color: white;
   text-align: center;
   width:50%;
   margin-left: 40%;
