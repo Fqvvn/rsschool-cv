@@ -77,7 +77,8 @@ hr {
 .contacts {
   text-align: right;
 }
-.footer {
+.footer p {
+  display: inline-block;
   margin: auto;
   max-width: 100px;
   text-align: center;
