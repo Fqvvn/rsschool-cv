@@ -78,7 +78,7 @@ main {
 }
 .right {
   flex-grow: 1;
-  background-color: black;
+  background-color: #494a5d;
   color: white;
   text-align: center;
   margin-right: 12em;
