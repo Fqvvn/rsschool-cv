@@ -88,6 +88,10 @@ main {
 .contacts {
   text-align: right;
 }
+.footer {
+  position: absolute;
+  margin-top: 90%;
+}
 .footer p {
   margin: auto;
   width: 32%;
