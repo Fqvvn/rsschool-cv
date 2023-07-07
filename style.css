@@ -58,7 +58,11 @@ hr {
 }
 
 /* Additional styles */
+.container {
+  display: flex;
+}
 .left {
+  flex:1;
   max-width: 80%;
   background-color: #cddbda;
   color: white;
