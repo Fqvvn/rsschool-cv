@@ -1,5 +1,6 @@
 /* Common styles for the entire page */
 body {
+  margin: 0;
   background-color: white;
   font-family: 'Montserrat', sans-serif;
 }
