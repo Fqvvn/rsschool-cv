@@ -36,7 +36,6 @@ a:hover {
 /* Styles for lists */
 ul {
   display: inline-block;
-  text-align: center;
   list-style-type: disc;
 }
 
