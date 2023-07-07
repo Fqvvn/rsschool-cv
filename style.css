@@ -56,9 +56,6 @@ hr {
 }
 
 /* Additional styles */
-div {
-  margin: auto;
-}
 .left {
   max-width: 100%;
   background-color: #cddbda;
