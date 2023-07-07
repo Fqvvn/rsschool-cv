@@ -108,6 +108,9 @@ main {
   margin: auto;
   text-align: left;
 }
+.description {
+  margin-top: 20%;
+}
 .skills { 
   margin: auto;
 }
