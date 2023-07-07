@@ -70,6 +70,14 @@ left {
   margin-left: 2em;
   height: 100%;
 }
+right {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width:50%;
+  margin-left: 2em+40%;
+  height: 100%;
+}
 contacts {
   text-align: right;
 }
