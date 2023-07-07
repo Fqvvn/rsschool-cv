@@ -79,6 +79,8 @@ hr {
 }
 .footer p {
   display: inline-block;
+}
+.footer img {
   max-width: 100px;
   height: auto;
 }
