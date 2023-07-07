@@ -58,11 +58,11 @@ hr {
 
 /* Additional styles */
 .left {
-  max-width: 100%;
+  max-width: 80%;
   background-color: #cddbda;
   color: white;
   text-align: center;
-  width: 300px;
+  width: 25em;
   height: 100%;
   margin-left: 12em;
 }
