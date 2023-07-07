@@ -88,8 +88,6 @@ main {
   text-align: right;
 }
 .footer {
-  position: fixed;
-  margin-top: 90%;
 }
 .footer p {
   margin: auto;
