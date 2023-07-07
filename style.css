@@ -59,6 +59,7 @@ hr {
 
 /* Additional styles */
 div {
+  align: center;
   margin: 2em;
   width: 70%;
 }
