@@ -2,7 +2,6 @@
 body {
   background-color: white;
   font-family: Arial, sans-serif;
-  height:100%;
 }
 
 /* Styles for headings */
@@ -75,6 +74,7 @@ main {
   text-align: center;
   width: 25em;
   margin-left: 12em;
+  padding: 10px;
 }
 .right {
   flex-grow: 1;
