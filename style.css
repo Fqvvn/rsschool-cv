@@ -139,6 +139,7 @@ main {
   flex-wrap: wrap;
 }
 .footer li {
+  margin: 0 10px;
   display: inline-block;
   list-style: none;
 }
