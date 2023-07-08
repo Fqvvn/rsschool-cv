@@ -99,6 +99,7 @@ main {
   top: 0;
   /* margin-right: 12em; */
   padding:10px;
+  height: 100%;
 }
 .right p {
   top: 50%;
