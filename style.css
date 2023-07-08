@@ -117,9 +117,6 @@ main {
   
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   flex-shrink: 0;
   background-color: transparent;
 }
