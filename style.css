@@ -90,6 +90,7 @@ main {
   top: 0;
   /* margin-left: 12em; */
   padding: 10px;
+  height: 100%;
 }
 
 .right {
