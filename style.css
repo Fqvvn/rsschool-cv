@@ -122,6 +122,7 @@ main {
   flex-shrink: 0;
   position: absolute;
   bottom: 0;
+  left: 25em;
   background-color: transparent;
   width: 70%;
 }
