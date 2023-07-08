@@ -122,6 +122,17 @@ main {
   bottom: 0;
   background-color: transparent;
 }
+.footer ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.footer li {
+  list-style: none;
+}
 .footer p {
   margin: auto;
   width: 33%;
