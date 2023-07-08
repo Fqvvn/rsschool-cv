@@ -60,12 +60,11 @@ hr {
 }
 
 /* Additional styles */
-/* .container {
+ .container {
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
   height: 100vh;
-} */
+} 
 .center {
   margin: 0;
   position: relative;
@@ -94,7 +93,6 @@ main {
 
 .right {
   flex-grow: 1;
-  flex-basis: 70%;
   background-color: #767676;
   color: white;
   text-align: center;
