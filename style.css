@@ -118,6 +118,9 @@ main {
 }
 .footer {
   flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background-color: transparent;
 }
 .footer p {
