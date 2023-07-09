@@ -112,10 +112,6 @@ main {
   padding: 1em;
 }
 .description {
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-align: center;
   padding: 1em;
   width: 25em;
