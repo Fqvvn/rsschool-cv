@@ -140,7 +140,6 @@ main {
 }
 .skills li {
   text-align: left;
-  margin: 0 10px;
   display: inline-block;
   list-style-type: disc;
 }
