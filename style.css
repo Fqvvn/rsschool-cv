@@ -52,7 +52,7 @@ hr {
  .container {
   display: flex;
   min-height: 100vh;
-  height: 100vh;
+  height: 100%;
 } 
 .center {
   margin: 0;
@@ -87,6 +87,7 @@ main {
   top: 0;
   /* margin-right: 12em; */
   padding: 10px;
+  min-height: 100hv;
   height: 100%;
 }
 .right p {
