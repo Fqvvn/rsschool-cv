@@ -59,7 +59,20 @@
         <section class = "code">
           <pre>
             <code>
-              [КОД]
+              function cakes(recipe, available) {
+                let result = Infinity;
+                for (const attributeName in recipe) {
+                  if (available[attributeName] !== undefined) {
+                    a = Math.floor(available[attributeName]/recipe[attributeName]);
+                    if (a<result) {
+                      result = a;
+                    }
+                  } else {
+                    return 0;
+                  }
+                }
+                return result;
+              }
             </code>
           </pre>
         </section>
