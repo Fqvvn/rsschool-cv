@@ -79,7 +79,7 @@ main {
   display: flex;
 }
 .left {
-  flex-basis: 25em;
+  flex-basis: 25%;
   background-color: black;
   color: white;
   text-align: center;
@@ -97,7 +97,7 @@ main {
   text-align: center;
   top: 0;
   /* margin-right: 12em; */
-  padding:10px;
+  padding: 10px;
   height: 100%;
 }
 .right p {
@@ -124,9 +124,9 @@ main {
   flex-shrink: 0;
   position: absolute;
   bottom: 0;
-  left: 25em;
+  left: 25%;
   background-color: transparent;
-  width: 70%;
+  width: 75%;
 }
 .footer ul {
   position: relative;
