@@ -1,30 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Git Profile</title>
-</head>
-<body>
-  <img src="/pp.png" alt="profile pic">
-  <h1>Liliia Luzhanskaia</h1>
-  <h2>How to contact me:</h2>
-  <p>Telegram: @fqvvn</p>
-  <p>Email: liliia.luzhanskaia@gmail.com</p>
-  <p>Discord: favvn</p>
-  <hr>
-  <h4>Hi! I am a highly motivated analytical mind with a huge love for beautiful things. I also enjoy learning new things every day and always improving my skills, both soft and hard. I am extremely excited to work as a Frontend Developer and contribute to the beauty and functionality of your project.</h4>
-  <hr>
-  <h3>Skills:</h3>
-  <ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>JavaScript</li>
-    <li>Git</li>
-    <li>English <em>Fluent</em></li>
-    <li>Russian <em>Native</em></li>
-    <li>French <em>Intermediate</em></li>
-    <li>Korean <em>Beginner</em></li>
-  </ul>
-</body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzhanskaia CV</title>
+  </head>
+  <body>
+    <main class="container">
+     <nav class='left'>
+        <img src="/ppbw.png" alt="profile pic">
+        <h1>Liliia Luzhanskaia</h1>
+        <article class= "description">
+          <hr>
+          <h4>Hi! I am a highly motivated analytical mind with huge love for beautiful things. I also enjoy learning new things every day and always improving my skills, both soft and hard. I am extremely excited to work as a Frontend Developer and contribute to the beauty and functionality of your project.</h4>
+          <hr>
+        </article>
+        <article class= "contacts">
+          <h2>How to contact me:</h2>
+          <ul>
+            <li>Telegram: @fqvvn</li>
+            <li>Email: liliia.luzhanskaia@gmail.com</li>
+            <li>Discord: favvn</li>
+          </ul>
+        </article>
+      </nav>
+      <aside class= "right">
+        <ul class="about">
+          <li class="about">
+              <article class="skills" >
+              <h3>Skills:</h3>
+              <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>English <em>Fluent</em></li>
+                <li>Russian <em>Native</em></li>
+                <li>French <em>Intermediate</em></li>
+                <li>Korean <em>Beginner</em></li>
+              </ul>
+            </article>
+          </li>
+          <li class="about">
+            <article class="education" >
+              <h3>Education:</h3>
+              <ul class="skills">
+                <li>High School</li>
+              </ul>
+            </article>
+          </li>
+          <li class="about">
+            <article class="projects" >
+              <h3>Projects:</h3>
+              <ul class="skills">
+                <li><a href="https://lfawn.tumblr.com/" target="_blank">Tumblr</a></li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+        <section class = "content">
+          <ul class = "about">
+            <li class = "about">
+              <h3>Code Examples:</h3>
+              <ul class = "code">
+                <li>
+                  <h4>Pete likes to bake some cakes. He has some recipes and ingredients. Unfortunately he is not good in maths. Can you help him to find out, how many cakes he could bake considering his recipes?
+                    Write a function cakes(), which takes the recipe (object) and the available ingredients (also an object) and returns the maximum number of cakes Pete can bake (integer). For simplicity there are no units for the amounts (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200). Ingredients that are not present in the objects, can be considered as 0.</h4>
+                  <pre>
+                    <code>
+                      function cakes(recipe, available) {
+                        let result = Infinity;
+                        for (const attributeName in recipe) {
+                          if (available[attributeName] !== undefined) {  
+                            a = Math.floor(available[attributeName]/recipe[attributeName]);
+                            if (a &lt; result) {
+                              result = a;
+                            }
+                          } else {
+                            return 0;
+                          }
+                        }
+                        return result;
+                      }
+                    </code>
+                  </pre>
+                </li>
+                <li>
+                  <h4>Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.</h4>
+                  <pre>
+                    <code>
+                      function pigIt(str) {
+                        let a=str.split(' ');
+                        for (let i = 0; i &lt; a.length; i++) {
+                          if (a[i].match(/[a-z]/gi)) {
+                            a[i] = a[i].substring(1,a[i].length).concat(a[i][0],'ay');
+                          }
+                        }
+                        return a.join(' ');
+                      }
+                    </code>
+                  </pre>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </aside> 
+    </main>
+    <footer class ="footer">
+      <hr>
+      <ul>
+        <li><a href="https://github.com/Fqvvn" target="_blank">GitHub</a></li>
+        <li>2023</li>
+        <li><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSS"></a></li>
+      </ul>
+    </footer>     
+  </body>
 </html>
