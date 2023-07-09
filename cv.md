@@ -1,4 +1,4 @@
-![profile pic](/pp.png)
+![profile pic](/ppbw.png)
 # ***Liliia Luzhanskaia***
 ## How to contact me:
 Telegram: @fqvvn
