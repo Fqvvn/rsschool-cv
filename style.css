@@ -72,7 +72,7 @@ main {
   background-color: black;
   color: white;
   text-align: center;
-  width: 25em;
+  width: 25%;
   top: 0;
   /* margin-left: 12em; */
   padding: 10px;
@@ -83,7 +83,7 @@ main {
 .right {
   position: fixed;
   flex-grow: 1;
-  margin-left: 25em;
+  margin-left: 25%;
   background-color: #767676;
   color: white;
   top: 0;
