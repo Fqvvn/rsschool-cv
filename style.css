@@ -34,17 +34,6 @@ a:hover {
   opacity: 1;
 }
 
-/* Styles for lists */
-ul {
-  display: inline-block;
-  list-style-type: disc;
-}
-
-li {
-  text-align: left;
-  margin-bottom: 5px;
-}
-
 /* Styles for images */
 img {
   max-width: 200px;
