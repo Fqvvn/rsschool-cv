@@ -79,7 +79,7 @@ main {
   overflow-y: scroll;
 }
 .left hr {
-  border: white;
+  border-top: 1px solid white;
 }
 .right {
   color: black;
