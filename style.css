@@ -73,6 +73,7 @@ main {
 }
 
 .right {
+  color: black;
   position: fixed;
   flex-grow: 1;
   margin-left: 25%;
