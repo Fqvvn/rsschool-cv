@@ -50,7 +50,7 @@ hr {
 }
 
 /* Additional styles */
- .container {
+.container {
   display: flex;
   height: 100%;
   width: 100%;
@@ -121,6 +121,9 @@ main {
   text-align: left;
   list-style: disc;
   display: list-item;
+}
+.code {
+  margin: 12em;
 }
 .code ul {
    position: relative;
