@@ -123,6 +123,7 @@ main {
   text-align: left;
   display: inline;
   list-style: disc;
+  display: list-item;
 }
 .footer {
   min-height: 100px;
