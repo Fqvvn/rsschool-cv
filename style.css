@@ -79,8 +79,7 @@ main {
   display: flex;
 }
 .left {
-  flex-basis: 30%;
-  max-width: 30%;
+  flex-basis: 25em;
   background-color: black;
   color: white;
   text-align: center;
