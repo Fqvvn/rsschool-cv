@@ -110,6 +110,7 @@ main {
   list-style: none;
 }
 .skills ul {
+  text-align: left;
   position: relative;
   flex-direction: column;
   display: flex;
@@ -120,7 +121,7 @@ main {
 }
 .skills li {
   text-align: left;
-  display: inline-block;
+  display: inline;
   list-style-type: disc;
 }
 .footer {
