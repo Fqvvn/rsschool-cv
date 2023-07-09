@@ -5,7 +5,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   width: 100%;
-}  
+  font-size: 12px;
+}
+
 /* Styles for headings */
 h1 {
   color: white;
