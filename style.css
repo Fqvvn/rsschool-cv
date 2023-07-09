@@ -78,7 +78,9 @@ main {
   height: 100%;
   overflow-y: scroll;
 }
-
+.left hr {
+  color: white;
+}
 .right {
   color: black;
   position: fixed;
