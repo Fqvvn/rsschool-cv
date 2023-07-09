@@ -141,6 +141,7 @@ main {
 .skills li {
   margin: 0 10px;
   display: inline-block;
+  list-style: circle;
 }
 .footer {
   min-height: 100px;
