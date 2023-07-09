@@ -114,7 +114,8 @@ main {
 .description {
   text-align: center;
   padding: 1em;
-  width: 25em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .about ul {
   position: relative;
