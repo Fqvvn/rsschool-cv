@@ -134,7 +134,7 @@ main {
 .code ul {
   text-align: left;
   position: relative;
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   margin: 10px 0;
