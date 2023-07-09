@@ -57,42 +57,46 @@
           </ul>
         </section>
         <section class = "code">
-          <h3>Code Examples:</h3>
           <ul>
             <li>
-              <pre>
-                <code>
-                  function cakes(recipe, available) {
-                    let result = Infinity;
-                    for (const attributeName in recipe) {
-                      if (available[attributeName] !== undefined) {
-                        a = Math.floor(available[attributeName]/recipe[attributeName]);
-                        if (a &lt; result) {
-                          result = a;
+              <h3>Code Examples:</h3>
+              <ul>
+                <li>
+                  <pre>
+                    <code>
+                      function cakes(recipe, available) {
+                        let result = Infinity;
+                        for (const attributeName in recipe) {
+                          if (available[attributeName] !== undefined) {
+                            a = Math.floor(available[attributeName]/recipe[attributeName]);
+                            if (a &lt; result) {
+                              result = a;
+                            }
+                          } else {
+                            return 0;
+                          }
                         }
-                      } else {
-                        return 0;
+                        return result;
                       }
-                    }
-                    return result;
-                  }
-                </code>
-              </pre>
-            </li>
-            <li>
-              <pre>
-                <code>
-                  function pigIt(str) {
-                    let a=str.split(' ');
-                    for (let i = 0; i &lt; a.length; i++) {
-                      if (a[i].match(/[a-z]/gi)) {
-                        a[i] = a[i].substring(1,a[i].length).concat(a[i][0],'ay');
+                    </code>
+                  </pre>
+                </li>
+                <li>
+                  <pre>
+                    <code>
+                      function pigIt(str) {
+                        let a=str.split(' ');
+                        for (let i = 0; i &lt; a.length; i++) {
+                          if (a[i].match(/[a-z]/gi)) {
+                            a[i] = a[i].substring(1,a[i].length).concat(a[i][0],'ay');
+                          }
+                        }
+                        return a.join(' ');
                       }
-                    }
-                    return a.join(' ');
-                  }
-                </code>
-              </pre>
+                    </code>
+                  </pre>
+                </li>
+              </ul>
             </li>
           </ul>
         </section>
