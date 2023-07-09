@@ -127,13 +127,13 @@ main {
   display: list-item;
 }
 .footer {
+  background-color: #767676;
   min-height: 100px;
   max-height: 10%;
   flex-shrink: 0;
   position: absolute;
   bottom: 0;
   left: 25%;
-  background-color: transparent;
   width: 75%;
 }
 .footer ul {
