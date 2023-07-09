@@ -64,7 +64,7 @@
                 for (const attributeName in recipe) {
                   if (available[attributeName] !== undefined) {
                     a = Math.floor(available[attributeName]/recipe[attributeName]);
-                    if (a<result) {
+                    if (a &lt; result) {
                       result = a;
                     }
                   } else {
