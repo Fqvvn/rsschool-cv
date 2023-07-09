@@ -123,10 +123,10 @@ main {
   display: list-item;
 }
 .code {
-  margin: 12em;
+  
 }
 .code ul {
-   position: relative;
+  position: relative;
   display: flex;
   justify-content: center;
   margin: 10px 0;
