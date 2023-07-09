@@ -79,6 +79,21 @@
                 </code>
               </pre>
             </li>
+            <li>
+              <pre>
+                <code>
+                  function pigIt(str) {
+                    let a=str.split(' ');
+                    for (let i = 0; i &lt; a.length; i++) {
+                      if (a[i].match(/[a-z]/gi)) {
+                        a[i] = a[i].substring(1,a[i].length).concat(a[i][0],'ay');
+                      }
+                    }
+                    return a.join(' ');
+                  }
+                </code>
+              </pre>
+            </li>
           </ul>
         </section>
       </aside> 
