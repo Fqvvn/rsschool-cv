@@ -122,7 +122,7 @@ main {
 .skills li {
   text-align: left;
   display: inline;
-  list-style-type: disc;
+  list-style: disc;
 }
 .footer {
   min-height: 100px;
