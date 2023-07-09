@@ -57,24 +57,28 @@
           </ul>
         </section>
         <section class = "code">
-          <pre>
-            <code>
-              function cakes(recipe, available) {
-                let result = Infinity;
-                for (const attributeName in recipe) {
-                  if (available[attributeName] !== undefined) {
-                    a = Math.floor(available[attributeName]/recipe[attributeName]);
-                    if (a &lt; result) {
-                      result = a;
+          <ul>
+            <li>
+              <pre>
+                <code>
+                  function cakes(recipe, available) {
+                    let result = Infinity;
+                    for (const attributeName in recipe) {
+                      if (available[attributeName] !== undefined) {
+                        a = Math.floor(available[attributeName]/recipe[attributeName]);
+                        if (a &lt; result) {
+                          result = a;
+                        }
+                      } else {
+                        return 0;
+                      }
                     }
-                  } else {
-                    return 0;
+                    return result;
                   }
-                }
-                return result;
-              }
-            </code>
-          </pre>
+                </code>
+              </pre>
+            </li>
+          </ul>
         </section>
       </aside> 
     </main>
