@@ -160,7 +160,7 @@ main {
   flex-wrap: wrap;
 }
 .footer li {
-  margin: 0 20px;
+  margin: 0 10%;
   display: inline-block;
   list-style: none;
 }
