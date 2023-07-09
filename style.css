@@ -127,6 +127,20 @@ main {
   list-style: disc;
   display: list-item;
 }
+.code ul {
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.code li {
+  text-align: left;
+  list-style: disc;
+  display: list-item;
+}
 .footer {
   background-color: #767676;
   min-height: 100px;
