@@ -124,18 +124,16 @@ main {
   display: list-item;
 }
 .code ul {
-  text-align: left;
-  position: relative;
-  flex-direction: column;
+   position: relative;
   display: flex;
   justify-content: center;
   margin: 10px 0;
   flex-wrap: wrap;
 }
 .code li {
-  text-align: left;
-  list-style: disc;
-  display: list-item;
+  margin: 0 25px;
+  display: inline-block;
+  list-style: none;
 }
 .footer {
   background-color: #767676;
