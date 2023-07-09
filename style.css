@@ -67,6 +67,7 @@ main {
   display: flex;
 }
 .left {
+  position: fixed;
   flex-basis: 25%;
   background-color: black;
   color: white;
