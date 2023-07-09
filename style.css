@@ -119,6 +119,7 @@ main {
   list-style: none;
 }
 .skills ul {
+  text-align: left;
   position: relative;
   flex-direction: column;
   display: flex;
