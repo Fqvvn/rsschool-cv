@@ -143,7 +143,7 @@ main {
   text-align: left;
   margin: 0 10px;
   display: inline-block;
-  list-style: circle;
+  list-style-type: disc;
 }
 .footer {
   min-height: 100px;
