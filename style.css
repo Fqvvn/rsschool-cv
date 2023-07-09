@@ -140,7 +140,7 @@ main {
 }
 .code li {
   text-align: left;
-  list-style: disc;
+  list-style: none;
   display: list-item;
 }
 .footer {
