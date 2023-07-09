@@ -132,7 +132,7 @@ main {
 .code ul {
   text-align: left;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   justify-content: center;
   margin: 10px 0;
