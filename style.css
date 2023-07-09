@@ -80,6 +80,7 @@ main {
 }
 
 .right {
+  position: fixed;
   flex-grow: 1;
   background-color: #767676;
   color: white;
